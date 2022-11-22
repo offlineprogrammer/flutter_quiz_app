@@ -22,11 +22,7 @@ class QuizService {
 
   final SettingsState settingsState;
 
-  Future<List<QuizQuestion>?> getQuestions({
-    required int numQuestions,
-    required int categoryId,
-    required Difficulty difficulty,
-  }) async {
+  Future<List<QuizQuestion>?> getQuestions() async {
     try {
       final queryParameters = {
         'type': 'multiple',

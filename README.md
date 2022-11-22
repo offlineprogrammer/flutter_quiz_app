@@ -1,16 +1,13 @@
-# flutter_quiz_app
+# Flutter Quiz App Riverpod 2.0 & Freezed 
 
-A new Flutter project.
+[![HitCount](https://hits.dwyl.com/offlineprogrammer/flutter_quiz_app.svg?style=flat-square&show=unique)](http://hits.dwyl.com/offlineprogrammer/flutter_quiz_app)
+![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCZr0c9Ooo_6oDoLpOS7rD-g?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/_Mo_Malaka_?style=social)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+ <a href="https://youtu.be/8yp4Nm6pgOU" target="_blank"><img src="preview.gif"></a> 

@@ -22,11 +22,7 @@ class QuizRepository {
   final QuizService quizService;
 
   Future<List<QuizQuestion>?> getQuestions() async {
-    return await quizService.getQuestions(
-      numQuestions: 5,
-      categoryId: 9,
-      difficulty: Difficulty.any,
-    );
+    return await quizService.getQuestions();
   }
 
   Future<List<QuizCategory>?> getCategories() async {
