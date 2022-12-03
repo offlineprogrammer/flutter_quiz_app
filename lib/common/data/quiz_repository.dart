@@ -1,5 +1,3 @@
-import 'package:flutter_quiz_app/common/utils/enums.dart';
-
 import 'package:flutter_quiz_app/common/services/quiz_service.dart';
 import 'package:flutter_quiz_app/features/quiz/models/quiz_question.dart';
 import 'package:flutter_quiz_app/features/settings/models/quiz_category.dart';
