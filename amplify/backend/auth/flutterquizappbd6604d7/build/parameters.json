@@ -1,0 +1,66 @@
+{
+  "identityPoolName": "flutterquizappbd6604d7_identitypool_bd6604d7",
+  "allowUnauthenticatedIdentities": false,
+  "resourceNameTruncated": "fluttebd6604d7",
+  "userPoolName": "flutterquizappbd6604d7_userpool_bd6604d7",
+  "autoVerifiedAttributes": [
+    "email"
+  ],
+  "mfaConfiguration": "OFF",
+  "mfaTypes": [
+    "SMS Text Message"
+  ],
+  "smsAuthenticationMessage": "Your authentication code is {####}",
+  "smsVerificationMessage": "Your verification code is {####}",
+  "emailVerificationSubject": "Your verification code",
+  "emailVerificationMessage": "Your verification code is {####}",
+  "defaultPasswordPolicy": false,
+  "passwordPolicyMinLength": 8,
+  "passwordPolicyCharacters": [],
+  "requiredAttributes": [
+    "email"
+  ],
+  "aliasAttributes": [],
+  "userpoolClientGenerateSecret": false,
+  "userpoolClientRefreshTokenValidity": 30,
+  "userpoolClientWriteAttributes": [
+    "email"
+  ],
+  "userpoolClientReadAttributes": [
+    "email"
+  ],
+  "userpoolClientLambdaRole": "fluttebd6604d7_userpoolclient_lambda_role",
+  "userpoolClientSetAttributes": false,
+  "sharedId": "bd6604d7",
+  "resourceName": "flutterquizappbd6604d7",
+  "authSelections": "identityPoolAndUserPool",
+  "useDefault": "defaultSocial",
+  "hostedUI": true,
+  "usernameAttributes": [
+    "email"
+  ],
+  "hostedUIDomainName": "flutterquizappbd6604d7-bd6604d7",
+  "authProvidersUserPool": [
+    "Google"
+  ],
+  "hostedUIProviderMeta": "[{\"ProviderName\":\"Google\",\"authorize_scopes\":\"openid email profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"sub\"}}]",
+  "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"myapp://\"],\"LogoutURLs\":[\"myapp://\"]}",
+  "userPoolGroupList": [],
+  "serviceName": "Cognito",
+  "usernameCaseSensitive": false,
+  "useEnabledMfas": true,
+  "authRoleArn": {
+    "Fn::GetAtt": [
+      "AuthRole",
+      "Arn"
+    ]
+  },
+  "unauthRoleArn": {
+    "Fn::GetAtt": [
+      "UnauthRole",
+      "Arn"
+    ]
+  },
+  "breakCircularDependency": true,
+  "dependsOn": []
+}

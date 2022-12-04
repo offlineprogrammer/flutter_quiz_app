@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-flutterquizapp-dev-152439-authRole",
+      "UnauthRoleArn": "arn:aws:iam::279012124572:role/amplify-flutterquizapp-dev-152439-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::279012124572:role/amplify-flutterquizapp-dev-152439-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-flutterquizapp-dev-152439-deployment",
+      "UnauthRoleName": "amplify-flutterquizapp-dev-152439-unauthRole",
+      "StackName": "amplify-flutterquizapp-dev-152439",
+      "StackId": "arn:aws:cloudformation:us-east-1:279012124572:stack/amplify-flutterquizapp-dev-152439/a9f6f730-7361-11ed-ba05-0acaaf646269",
+      "AmplifyAppId": "dt1rw39z3hdhq"
+    },
+    "categories": {
+      "auth": {
+        "flutterquizappbd6604d7": {}
+      }
+    }
+  }
+}

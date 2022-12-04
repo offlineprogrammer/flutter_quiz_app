@@ -1,0 +1,100 @@
+PODS:
+  - Amplify (1.28.2):
+    - Amplify/Default (= 1.28.2)
+  - Amplify/Default (1.28.2)
+  - amplify_auth_cognito_ios (0.0.1):
+    - Amplify (= 1.28.2)
+    - amplify_core
+    - AmplifyPlugins/AWSCognitoAuthPlugin (= 1.28.2)
+    - Flutter
+    - ObjectMapper
+  - amplify_core (0.0.1):
+    - Flutter
+    - SwiftFormat/CLI
+    - SwiftLint (= 0.48.0)
+  - amplify_flutter_ios (0.0.1):
+    - Amplify (= 1.28.2)
+    - amplify_core
+    - AmplifyPlugins/AWSCognitoAuthPlugin (= 1.28.2)
+    - AWSPluginsCore (= 1.28.2)
+    - Flutter
+    - SwiftFormat/CLI
+    - SwiftLint (= 0.48.0)
+  - AmplifyPlugins/AWSCognitoAuthPlugin (1.28.2):
+    - AWSAuthCore (~> 2.28.0)
+    - AWSCognitoIdentityProvider (~> 2.28.0)
+    - AWSCognitoIdentityProviderASF (~> 2.28.0)
+    - AWSCore (~> 2.28.0)
+    - AWSMobileClient (~> 2.28.0)
+    - AWSPluginsCore (= 1.28.2)
+  - AWSAuthCore (2.28.5):
+    - AWSCore (= 2.28.5)
+  - AWSCognitoIdentityProvider (2.28.5):
+    - AWSCognitoIdentityProviderASF (= 2.28.5)
+    - AWSCore (= 2.28.5)
+  - AWSCognitoIdentityProviderASF (2.28.5):
+    - AWSCore (= 2.28.5)
+  - AWSCore (2.28.5)
+  - AWSMobileClient (2.28.5):
+    - AWSAuthCore (= 2.28.5)
+    - AWSCognitoIdentityProvider (= 2.28.5)
+    - AWSCognitoIdentityProviderASF (= 2.28.5)
+    - AWSCore (= 2.28.5)
+  - AWSPluginsCore (1.28.2):
+    - Amplify (= 1.28.2)
+    - AWSCore (~> 2.28.0)
+  - Flutter (1.0.0)
+  - ObjectMapper (4.2.0)
+  - SwiftFormat/CLI (0.50.4)
+  - SwiftLint (0.48.0)
+
+DEPENDENCIES:
+  - amplify_auth_cognito_ios (from `.symlinks/plugins/amplify_auth_cognito_ios/ios`)
+  - amplify_core (from `.symlinks/plugins/amplify_core/ios`)
+  - amplify_flutter_ios (from `.symlinks/plugins/amplify_flutter_ios/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - AmplifyPlugins
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPluginsCore
+    - ObjectMapper
+    - SwiftFormat
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  amplify_auth_cognito_ios:
+    :path: ".symlinks/plugins/amplify_auth_cognito_ios/ios"
+  amplify_core:
+    :path: ".symlinks/plugins/amplify_core/ios"
+  amplify_flutter_ios:
+    :path: ".symlinks/plugins/amplify_flutter_ios/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  Amplify: 5dfd8bdcd41f8a67d96ebd72e5ef1c5aab8500b5
+  amplify_auth_cognito_ios: 5995925d2e821ab78dd445f047aff8aa525aadc9
+  amplify_core: 0876b2fbbcec7619f5b58b20c59ecc0118f65a47
+  amplify_flutter_ios: 8b85da543bdfdcb746c48a420771b8259dd9ba31
+  AmplifyPlugins: ab878c981d9d51654288d075653a40fe22b27c61
+  AWSAuthCore: e728d73a2b4eed9e826506a1f0fcc58171537267
+  AWSCognitoIdentityProvider: 261fac98d461e9e398bf3c1e18c3cd90578b33ca
+  AWSCognitoIdentityProviderASF: 8e35d6414d9ee2443e9167414ef5e839a58e1e72
+  AWSCore: 4bad3f0eb17393b4926a9491e32b835991c56382
+  AWSMobileClient: c898658a4d15e64e07d39c7dc6354fd3ea3055a9
+  AWSPluginsCore: 0842f0ec7df892adddeea71b05c8e9bee84b2eb0
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SwiftFormat: 42b2e7e390bffa30ea7a9f2dd8c8872d37f6a093
+  SwiftLint: 284cea64b6187c5d6bd83e9a548a64104d546447
+
+PODFILE CHECKSUM: a843a48598f7673f7f2af9f25c841666a29f3416
+
+COCOAPODS: 1.11.3
