@@ -35,6 +35,22 @@ class QuizPage extends HookConsumerWidget {
           },
           icon: const Icon(Icons.settings),
         ),
+
+        actions: <Widget>[
+          Padding(
+              padding: const EdgeInsets.only(right: 20.0),
+              child: GestureDetector(
+                onTap: () {
+                  context.goNamed(
+                    AppRoute.quizSessionCalendar.name,
+                  );
+                },
+                child: const Icon(
+                  Icons.calendar_month_outlined,
+                  size: 26.0,
+                ),
+              )),
+        ],
       ),
       body: questions.when(
         data: (data) {

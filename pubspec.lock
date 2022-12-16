@@ -8,6 +8,27 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "50.0.0"
+  amplify_api:
+    dependency: "direct main"
+    description:
+      name: amplify_api
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.10"
+  amplify_api_android:
+    dependency: transitive
+    description:
+      name: amplify_api_android
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.10"
+  amplify_api_ios:
+    dependency: transitive
+    description:
+      name: amplify_api_ios
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.10"
   amplify_auth_cognito:
     dependency: "direct main"
     description:
@@ -40,6 +61,13 @@ packages:
     dependency: transitive
     description:
       name: amplify_core
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.10"
+  amplify_datastore:
+    dependency: "direct main"
+    description:
+      name: amplify_datastore
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.6.10"
@@ -191,7 +219,7 @@ packages:
     source: hosted
     version: "4.3.0"
   collection:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: collection
       url: "https://pub.dartlang.org"
@@ -251,6 +279,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_heatmap_calendar:
+    dependency: "direct main"
+    description:
+      name: flutter_heatmap_calendar
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.5"
   flutter_hooks:
     dependency: "direct main"
     description:
@@ -276,7 +311,7 @@ packages:
       name: flutter_riverpod
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.2"
+    version: "2.1.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -335,7 +370,7 @@ packages:
       name: hooks_riverpod
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.2"
+    version: "2.1.1"
   html_unescape:
     dependency: "direct main"
     description:
@@ -365,7 +400,7 @@ packages:
     source: hosted
     version: "4.0.2"
   intl:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: intl
       url: "https://pub.dartlang.org"
@@ -489,7 +524,7 @@ packages:
       name: riverpod
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.2"
+    version: "2.1.1"
   shelf:
     dependency: transitive
     description:

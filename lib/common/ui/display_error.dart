@@ -27,7 +27,7 @@ class DisplayError extends ConsumerWidget {
               textStyle: const TextStyle(fontSize: 20),
             ),
             onPressed: () async {
-              ref.refresh(quizQuestionsProvider);
+              ref.invalidate(quizQuestionsProvider);
             },
             child: const Text('Try again'),
           ),

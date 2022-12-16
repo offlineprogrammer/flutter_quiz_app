@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "flutterquizapp",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authflutterquizappbd6604d7"
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}

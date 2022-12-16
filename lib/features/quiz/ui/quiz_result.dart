@@ -45,7 +45,7 @@ class QuizResult extends ConsumerWidget {
         TheQuizButton(
           title: 'New Quiz',
           onPressed: () {
-            ref.refresh(quizRepositoryProvider);
+            ref.invalidate(quizRepositoryProvider);
             ref.read(quizControllerProvider.notifier).reset();
           },
         ),

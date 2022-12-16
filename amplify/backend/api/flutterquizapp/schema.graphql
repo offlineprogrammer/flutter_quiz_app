@@ -1,0 +1,8 @@
+type QuizSession @model @auth(rules: [{ allow: owner }]) {
+  id: ID!
+  sessionCategory: String!
+  sessionDifficulty: String!
+  numQuestions:String!
+  sessionDate: AWSDate!
+  sessionScore: String!
+}

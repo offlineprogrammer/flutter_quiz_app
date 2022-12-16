@@ -4,6 +4,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:amplify_flutter/amplify_flutter.dart';
 import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
 import 'amplifyconfiguration.dart';
+import 'package:amplify_api/amplify_api.dart';
+import 'package:amplify_datastore/amplify_datastore.dart';
+import 'package:flutter_quiz_app/models/ModelProvider.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,6 +26,8 @@ Future<void> main() async {
 Future<void> _configureAmplify() async {
   await Amplify.addPlugins([
     AmplifyAuthCognito(),
+    AmplifyDataStore(modelProvider: ModelProvider.instance),
+    AmplifyAPI(),
   ]);
   await Amplify.configure(amplifyconfig);
 }
