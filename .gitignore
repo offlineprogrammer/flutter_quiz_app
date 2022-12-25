@@ -65,3 +65,5 @@ amplifytools.xcconfig
 **.sample
 !amplify/backend/auth/*/build
 #amplify-do-not-edit-end
+
+firebase_options.dart

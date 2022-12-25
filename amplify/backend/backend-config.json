@@ -54,5 +54,11 @@
         }
       }
     }
+  },
+  "analytics": {
+    "flutterquizapp": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }

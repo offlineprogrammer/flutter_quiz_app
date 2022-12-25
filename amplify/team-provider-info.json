@@ -17,6 +17,9 @@
       },
       "api": {
         "flutterquizapp": {}
+      },
+      "analytics": {
+        "flutterquizapp": {}
       }
     }
   }

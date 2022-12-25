@@ -17,5 +17,12 @@ export type AmplifyDependentResourcesAttributes = {
             "GraphQLAPIIdOutput": "string",
             "GraphQLAPIEndpointOutput": "string"
         }
+    },
+    "analytics": {
+        "flutterquizapp": {
+            "Region": "string",
+            "Id": "string",
+            "appName": "string"
+        }
     }
 }

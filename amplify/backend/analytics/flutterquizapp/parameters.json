@@ -1,0 +1,21 @@
+{
+    "appName": "flutterquizapp",
+    "roleName": "pinpointLambdaRole315fab45",
+    "cloudformationPolicyName": "cloudformationPolicy315fab45",
+    "cloudWatchPolicyName": "cloudWatchPolicy315fab45",
+    "pinpointPolicyName": "pinpointPolicy315fab45",
+    "authPolicyName": "pinpoint_amplify_315fab45",
+    "unauthPolicyName": "pinpoint_amplify_315fab45",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

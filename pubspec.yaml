@@ -18,6 +18,9 @@ dependencies:
   amplify_authenticator: ^0.2.4
   amplify_api: ^0.6.0
   amplify_datastore: ^0.6.0
+  amplify_analytics_pinpoint: ^0.6.0
+  flutter_local_notifications: ^13.0.0
+  path_provider: ^2.0.11
 
   cupertino_icons: ^1.0.2
   http: ^0.13.5
@@ -28,6 +31,8 @@ dependencies:
   flutter_heatmap_calendar: ^1.0.5
   collection: ^1.16.0
   intl: ^0.17.0
+  firebase_core: ^2.4.0
+  firebase_messaging: ^14.1.4
 
 dev_dependencies:
   flutter_test:
